@@ -3,7 +3,7 @@ version: "1"
 # Issue Welcome
 # comments a certain string when an issue is created
 issuewelcome:
-  enabled: true
+  enabled: false
   message: >
          Welcome to our github repository and thank you for creating that issue!
 # label manager
