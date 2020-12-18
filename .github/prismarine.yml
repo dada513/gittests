@@ -16,12 +16,28 @@ labelmanager:
 # Checks issues for a regex
 # Useful for making sure noobs fill the issue template correctly
 regexIssueChecks:
+  # if you want to disable any messages/labels comment the field out
   enabled: true
   # the regexes
   regexes:
     - "this is"
-  # comment sent if its successfull, comment out to disable
+  # comment sent if its successfull
   successMessage: >
-                   Thank you for filling in the template correctly
+   Thank you for filling in the template correctly
+  # Labels to add if it succeeds
   successLabels:
     - valid
+    
+  # Should the issue
+  reopenOnSuccess: true
+  
+  # comment sent if failed
+  failMessage: >
+   You did not fill up the issue template
+   Regexes didnt match
+  # Labels to add if it fails
+  failLabels:
+    - invalid
+    
+  closeOnFail: true
+  
