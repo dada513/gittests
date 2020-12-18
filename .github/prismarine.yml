@@ -16,4 +16,4 @@ labelmanager:
 regexIssueChecks:
   enabled: true
   regexes:
-    - "XD"
+    - "this is"
