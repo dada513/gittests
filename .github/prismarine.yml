@@ -6,3 +6,5 @@ issuewelcome:
   enabled: true
   message: >
          Welcome to our github repository and thank you for creating that issue!
+labeladd:
+  enabled: true
