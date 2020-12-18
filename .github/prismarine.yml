@@ -12,3 +12,8 @@ issuewelcome:
 # p!label-remove label
 labelmanager:
   enabled: true
+
+regexIssueChecks:
+  enabled: true
+  regexes:
+    - "/template/"
