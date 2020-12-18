@@ -6,5 +6,9 @@ issuewelcome:
   enabled: true
   message: >
          Welcome to our github repository and thank you for creating that issue!
-labeladd:
+# label manager
+# lets users add labels to their own issues:
+# p!label-add label
+# p!label-remove label
+labelmanager:
   enabled: true
