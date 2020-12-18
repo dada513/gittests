@@ -23,3 +23,5 @@ regexIssueChecks:
   # comment sent if its successfull, comment out to disable
   successMessage: >
                    Thank you for filling in the template correctly
+  successLabels:
+    - valid
