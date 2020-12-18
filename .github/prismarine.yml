@@ -13,7 +13,13 @@ issuewelcome:
 labelmanager:
   enabled: true
 
+# Checks issues for a regex
+# Useful for making sure noobs fill the issue template correctly
 regexIssueChecks:
   enabled: true
+  # the regexes
   regexes:
     - "this is"
+  # comment sent if its successfull, comment out to disable
+  successMessage: >
+                   Thank you for filling in the template correctly
